@@ -1,0 +1,85 @@
+/**index.wxss**/
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Logo styles */
+.logo {
+  width: 209px;
+  height: 145px;
+  margin: 60px auto;
+  display: block;
+}
+
+.led-logo,
+.humd-logo,
+.temp-logo,
+.sun-logo {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+
+.led-logo {
+  margin-top: 10px;
+}
+
+.sun-logo {
+  margin-top: 30px;
+}
+
+/* Text and container styles */
+.humdTemp-container,
+.led-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.humd-motto {
+  margin-left: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.bottom-text {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Button styles */
+.button,
+.another-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.another-button {
+  margin-top: 60px;
+}
+
+.button:hover,
+.another-button:hover {
+  background-color: #155bcc;
+}
+  /* Bottom text */
+.view.bottom-text {
+  margin-top: 70px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+}
