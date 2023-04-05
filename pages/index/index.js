@@ -8,9 +8,6 @@ Page({
   data: {
     client: null,
     topic: {
-      // LEDcontrolTopic: '/zhihu_esp8266/LEDcontrol',
-      // HumdTopic: '/zhihu_esp8266/humd',
-      // TempTopic: '/zhihu_esp8266/temp',
       CountTopic: '/iot/2187/count'
     },
     value: {
@@ -44,7 +41,6 @@ Page({
   },
 
   onShow: function() {
-    // console.log("on show");
   },
 
   onHide: function() {
@@ -71,8 +67,6 @@ Page({
   },
   showPopup() {
     var that = this;
-    // if(that.data.value.CountValue>that.data.WaitingCriteria){
-    // change WaitingCriteria
     if(that.data.value.CountValue> 20){
       wx.showModal({
         title: '可恶',
@@ -104,17 +98,6 @@ Page({
           'value.CountValue': payload_string
         })
       }
-      // if (topic == that.data.topic.HumdTopic) {
-      //   that.setData({
-      //     'value.HumdValue': payload_string
-      //   })
-      // }
-      // if (topic == that.data.topic.TempTopic) {
-      //   that.setData({
-      //     'value.TempValue': payload_string
-      //   })
-      // }
-
   },
 
   ConnectCallback: function(connack) {

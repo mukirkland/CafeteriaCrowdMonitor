@@ -1,29 +1,12 @@
-<!--index.wxml-->
-<!-- /*  
-                   _     _                 __                                    
-                  | |   (_)               / _|                                   
- _ __ ___    __ _ | | __ _  _ __    __ _ | |_  _   _  _ __     __  __ _   _  ____
-| '_ ` _ \  / _` || |/ /| || '_ \  / _` ||  _|| | | || '_ \    \ \/ /| | | ||_  /
-| | | | | || (_| ||   < | || | | || (_| || |  | |_| || | | | _  >  < | |_| | / / 
-|_| |_| |_| \__,_||_|\_\|_||_| |_| \__, ||_|   \__,_||_| |_|(_)/_/\_\ \__, |/___|
-                                    __/ |                              __/ |     
-                                   |___/                              |___/      
-*/ -->
 <view class="container">
   <view>
   <text>PH 4号楼食堂人流量实时监测程序</text>
   </view>
   <view class='humdTemp-container'>
-    <!-- <image src="{{value.Humdlogo}}" class='humd-logo'></image> -->
-    <!-- <image src="{{value.Templogo}}" class='temp-logo'></image> -->
   </view>
   <view>
     <text class='humd-motto'>正在排队人数：{{value.CountValue}}</text>
-    <!-- <text>温度：{{value.TempValue}}°</text> -->
   </view>
-  <!-- <view class='led-container'>
-    <image src="{{LEDValue[0].LEDlogo}}" class='led-logo'></image>
-  </view> -->
   <view>
     <button type="defaule" size="mini" bindtap="showPopup" class="button">{{ButtonValue[0].ButtonName}}</button>
   </view>
@@ -37,6 +20,6 @@
   <text>11.3 李沐原</text>
   </view>
   <view>
-    <text>© 2022 mumu</text>
+    <text>项目正在调试中，感谢您的参与</text>
   </view>
 </view>

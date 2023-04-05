@@ -16,12 +16,13 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "condition": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.6.4",
-  "appid": "XXXXXXXXXXXXXX",
-  "projectname": "wechat_esp8266_baidu_iot",
+  "appid": "wxd5a26446f809a2ee",
+  "projectname": "wechat_mqtt_esp8266",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {},
