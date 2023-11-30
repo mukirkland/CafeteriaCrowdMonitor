@@ -12,6 +12,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Personal Note
 
- I often found myself running down from the fourth floor, only to be greeted by a 20-minute queue in the cafeteria. I found this situation unbearable and decided to create this solution to help both students and teachers better manage their time during peak meal hours. I hope this project can alleviate the congestion and make the dining experience more enjoyable for everyone at our school. 
+I often found myself running down from the fourth floor, only to be greeted by a 20-minute queue in the cafeteria. I found this situation unbearable and decided to create this solution to help both students and teachers better manage their time during peak meal hours. I hope this project can alleviate the congestion and make the dining experience more enjoyable for everyone at our school. 
 
-A special shoutout to my fellow alumni and current students—let's keep making our school cafeteria a better pile of shit.
+A special shoutout to Pinghe students—Be the change that you wish to see in the school.
